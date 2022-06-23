@@ -128,3 +128,6 @@ LOGIN_REDIRECT_URL = "dashboard"
 
 # Logout redirect to dashboard
 LOGOUT_REDIRECT_URL = "dashboard"
+
+# Set email server
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
